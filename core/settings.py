@@ -45,6 +45,17 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'core',
     'blog',
+    'tailwind',
+    'theme',
+]
+
+# escribi en terminal where npm y ahi copie el que tiene cmd y lo transforme en un r string
+NPM_BIN_PATH = r"C:\Program Files\nodejs\npm.cmd"
+
+TAILWIND_APP_NAME = 'theme'
+
+INTERNAL_IPS = [
+    "127.0.0.1",
 ]
 
 MIDDLEWARE = [
